@@ -137,7 +137,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const img = document.createElement('img');
     img.classList.add('img_pets');
-    img.src = `/img/pets/pet-${id}.png`;
+    img.src = `./img/pets/pet-${id}.png`;
     img.alt = `${pets_info[id].name}`;
     card.appendChild(img);
 
@@ -625,7 +625,7 @@ window.addEventListener('DOMContentLoaded', () => {
     pop_up_wrapper.classList.add('pop_up_open');
     pop_up.style.display = 'flex';
 
-    pop_up_image.src = `/img/pets/pet-${id}.png`;
+    pop_up_image.src = `./img/pets/pet-${id}.png`;
     pop_up_image.alt = `${pets_info[id].name}`;
     pop_up_name.innerHTML = pets_info[id].name;
     pop_up_type.innerHTML = `${pets_info[id].type} - ${pets_info[id].breed}`;
